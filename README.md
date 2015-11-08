@@ -4,13 +4,7 @@
 This project introduces [Apache Spark](http://spark.apache.org/), an in-memory parallel processing engine for big data. The examples use PySpark (Spark's Python API), along with Jupyter notebooks for interactivity with the shell. 
 
 ### If you are using the ftlml Ubuntu VM
-
-First, make sure you clone this repository to the `/home/ftlml/Projects` folder:
-
-	cd /home/ftlml/Projects
-	git clone https://github.com/ftlml/11-11-2015
-
-Then, you will need to run the `update_vm.sh` script to install the necessary Spark dependencies (don't forget the sudo!):
+You will need to run the `update_vm.sh` script to install the necessary Spark dependencies (don't forget the sudo!):
 
 	sudo bash update_vm.sh
 
@@ -22,3 +16,6 @@ This script could take a few minutes to run. If your machine allows, increase th
 ### Install on your machine
 If you prefer to install Spark and Jupyter yourself, peek into the `update_vm.sh` script and install whatever you do not have on your machine. The pre-built Spark code works out of the box, as long as you have Python and Java installed.
 
+##Getting Started
+
+To launch a PySpark shell inside of Jupyter notebooks, run the `launch_pyspark_jupyter.sh` script. Then, open the `spark_examples.ipynb` notebook. You can execute each cell and see the output, as well as change the code inside cells and add new cells to explore Spark's functionality.
