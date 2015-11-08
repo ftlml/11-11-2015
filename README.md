@@ -1,7 +1,7 @@
 # 11-11-2015 
 ## Machine Learning with Big Data using Spark
 
-This project introduces [Apache Spark](http://spark.apache.org/), an in-memory parallel processing engine for big data. The examples use PySpark (Spark's Python API), along with Jupyter notebooks for interactivity with the shell. 
+This project introduces [Apache Spark](http://spark.apache.org/), an in-memory parallel processing engine for big data. The examples use PySpark (Spark's Python API), along with [Jupyter](http://jupyter.org/) notebooks for interactivity with the shell. 
 
 ### If you are using the ftlml Ubuntu VM
 You will need to run the `update_vm.sh` script to install the necessary Spark dependencies (don't forget the sudo!):
